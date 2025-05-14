@@ -34,6 +34,11 @@ export default defineConfig({
       path: '/print',
       component: './Print',
     },
+    {
+      name: '你好，世界',
+      path: '/helloWorld',
+      component: './UserAdd',
+    },
   ],
   npmClient: 'cnpm',
 });
